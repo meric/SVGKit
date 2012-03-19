@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074A237515174FFD0038F7DD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A237415174FFD0038F7DD /* Cocoa.framework */; };
+		074A237F15174FFD0038F7DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074A237D15174FFD0038F7DD /* InfoPlist.strings */; };
+		074A238115174FFD0038F7DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A238015174FFD0038F7DD /* main.m */; };
+		074A238515174FFD0038F7DD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 074A238315174FFD0038F7DD /* Credits.rtf */; };
+		074A238815174FFD0038F7DD /* SVGDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A238715174FFD0038F7DD /* SVGDocument.m */; };
+		074A238B15174FFD0038F7DD /* SVGDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074A238915174FFD0038F7DD /* SVGDocument.xib */; };
+		074A238E15174FFE0038F7DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074A238C15174FFE0038F7DD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074A237015174FFD0038F7DD /* SVGUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074A237415174FFD0038F7DD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		074A237715174FFD0038F7DD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		074A237815174FFD0038F7DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		074A237915174FFD0038F7DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		074A237C15174FFD0038F7DD /* SVGUnitTest-Info.plist */ = {isa = PBXFileReference; path = "SVGUnitTest-Info.plist"; sourceTree = "<group>"; };
+		074A237E15174FFD0038F7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		074A238015174FFD0038F7DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		074A238215174FFD0038F7DD /* SVGUnitTest-Prefix.pch */ = {isa = PBXFileReference; path = "SVGUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		074A238415174FFD0038F7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		074A238615174FFD0038F7DD /* SVGDocument.h */ = {isa = PBXFileReference; path = SVGDocument.h; sourceTree = "<group>"; };
+		074A238715174FFD0038F7DD /* SVGDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGDocument.m; sourceTree = "<group>"; };
+		074A238A15174FFD0038F7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SVGDocument.xib; sourceTree = "<group>"; };
+		074A238D15174FFE0038F7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074A236D15174FFD0038F7DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074A237515174FFD0038F7DD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074A236515174FFD0038F7DD = {
+			isa = PBXGroup;
+			children = (
+				074A237A15174FFD0038F7DD /* SVGUnitTest */,
+				074A237315174FFD0038F7DD /* Frameworks */,
+				074A237115174FFD0038F7DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074A237115174FFD0038F7DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074A237015174FFD0038F7DD /* SVGUnitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074A237315174FFD0038F7DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074A237415174FFD0038F7DD /* Cocoa.framework */,
+				074A237615174FFD0038F7DD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		074A237615174FFD0038F7DD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074A237715174FFD0038F7DD /* AppKit.framework */,
+				074A237815174FFD0038F7DD /* CoreData.framework */,
+				074A237915174FFD0038F7DD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		074A237A15174FFD0038F7DD /* SVGUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				074A238615174FFD0038F7DD /* SVGDocument.h */,
+				074A238715174FFD0038F7DD /* SVGDocument.m */,
+				074A238915174FFD0038F7DD /* SVGDocument.xib */,
+				074A238C15174FFE0038F7DD /* MainMenu.xib */,
+				074A237B15174FFD0038F7DD /* Supporting Files */,
+			);
+			path = SVGUnitTest;
+			sourceTree = "<group>";
+		};
+		074A237B15174FFD0038F7DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074A237C15174FFD0038F7DD /* SVGUnitTest-Info.plist */,
+				074A237D15174FFD0038F7DD /* InfoPlist.strings */,
+				074A238015174FFD0038F7DD /* main.m */,
+				074A238215174FFD0038F7DD /* SVGUnitTest-Prefix.pch */,
+				074A238315174FFD0038F7DD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074A236F15174FFD0038F7DD /* SVGUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074A239115174FFE0038F7DD /* Build configuration list for PBXNativeTarget "SVGUnitTest" */;
+			buildPhases = (
+				074A236C15174FFD0038F7DD /* Sources */,
+				074A236D15174FFD0038F7DD /* Frameworks */,
+				074A236E15174FFD0038F7DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVGUnitTest;
+			productName = SVGUnitTest;
+			productReference = 074A237015174FFD0038F7DD /* SVGUnitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074A236715174FFD0038F7DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Sydney University";
+			};
+			buildConfigurationList = 074A236A15174FFD0038F7DD /* Build configuration list for PBXProject "SVGUnitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 074A236515174FFD0038F7DD;
+			productRefGroup = 074A237115174FFD0038F7DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074A236F15174FFD0038F7DD /* SVGUnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074A236E15174FFD0038F7DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074A237F15174FFD0038F7DD /* InfoPlist.strings in Resources */,
+				074A238515174FFD0038F7DD /* Credits.rtf in Resources */,
+				074A238B15174FFD0038F7DD /* SVGDocument.xib in Resources */,
+				074A238E15174FFE0038F7DD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074A236C15174FFD0038F7DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074A238115174FFD0038F7DD /* main.m in Sources */,
+				074A238815174FFD0038F7DD /* SVGDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		074A237D15174FFD0038F7DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074A237E15174FFD0038F7DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		074A238315174FFD0038F7DD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074A238415174FFD0038F7DD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		074A238915174FFD0038F7DD /* SVGDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074A238A15174FFD0038F7DD /* en */,
+			);
+			name = SVGDocument.xib;
+			sourceTree = "<group>";
+		};
+		074A238C15174FFE0038F7DD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074A238D15174FFE0038F7DD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074A238F15174FFE0038F7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		074A239015174FFE0038F7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		074A239215174FFE0038F7DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVGUnitTest/SVGUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "SVGUnitTest/SVGUnitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		074A239315174FFE0038F7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SVGUnitTest/SVGUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "SVGUnitTest/SVGUnitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074A236A15174FFD0038F7DD /* Build configuration list for PBXProject "SVGUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074A238F15174FFE0038F7DD /* Debug */,
+				074A239015174FFE0038F7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074A239115174FFE0038F7DD /* Build configuration list for PBXNativeTarget "SVGUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074A239215174FFE0038F7DD /* Debug */,
+				074A239315174FFE0038F7DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 074A236715174FFD0038F7DD /* Project object */;
+}
